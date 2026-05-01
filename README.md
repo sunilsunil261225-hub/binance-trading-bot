@@ -1,10 +1,19 @@
 # Binance Trading Bot
 
-## Setup
+##  Description
+This is a simple trading bot using Binance Futures Testnet API.
+
+##  Setup
+
+Install dependencies:
 pip install -r requirements.txt
 
-## Run MARKET order
+##  Run MARKET Order
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
 
-## Run LIMIT order
+##  Run LIMIT Order
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 60000
+
+##  Notes
+- Uses Binance Futures Testnet
+- API keys must be set as environment variables
